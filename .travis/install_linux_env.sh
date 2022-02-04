@@ -22,5 +22,4 @@ sudo mv operator-sdk-${OPERATOR_SDK_RELEASE_VERSION}-ppc64le-linux-gnu /usr/loca
 # Start minikube
 echo "######### Starting Minikube #########"
 sudo -E minikube start --force --profile=minikube --driver=none
-"sudo chown -R travis: /home/travis/.minikube/"
 minikube update-context --profile=minikube
